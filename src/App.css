@@ -1,0 +1,62 @@
+.App {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+ 
+  color:black;
+  
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+  color:red;
+}
+.title{
+  color:orange;
+}
+
+
+
+.register-container{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto ;
+  width: 300px;
+  gap: 20px;
+}
+.register{
+  text-align: center;
+}
+
+.toolbar{
+  display: flex;
+  justify-content:flex-end;
+  margin-right: 60px;
+  gap: 20px;
+}
+
+.table{
+  width: 50%;
+  margin: auto;
+  background-color: aqua;
+  margin-top: 50px;
+}
+
+
+.smallBox {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 10px auto;
+ 
+}
+
+.chart-container{
+  width: 60%;
+ 
+  margin: auto;
+}
